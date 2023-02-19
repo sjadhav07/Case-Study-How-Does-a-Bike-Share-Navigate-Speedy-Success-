@@ -161,12 +161,15 @@ Now, we will order data by weekday
 avg_duration_per_weekday <- trips_total%>%
   group_by(member_casual, weekday)%>%
   summarise(average_trip_time = mean(trip_duration))
+```
 
-
+```
 # setting the levels of the "weekday" column to be in the order: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday
 avg_duration_per_weekday$weekday <- factor(avg_duration_per_weekday$weekday, levels= c( "Monday", 
-                                                                                        "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"))
+                                                                                       "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"))
+```
 
+```
 # returns the original data frame sorted by the "weekday" column in ascending order
 avg_duration_per_weekday[order(avg_duration_per_weekday$weekday),]
 ```
