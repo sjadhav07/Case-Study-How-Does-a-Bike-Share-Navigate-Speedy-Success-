@@ -154,7 +154,7 @@ ggplot(avg_duration, aes(member_casual, y = average_trip_time, fill = member_cas
 ![image](https://user-images.githubusercontent.com/117652787/219964648-7a8926c2-a9dd-4cec-85ba-05185385e411.png)
 
 
-```
+
 Now, we will order data by weekday
 ```
 # we first need to order data by weekday
