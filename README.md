@@ -182,3 +182,5 @@ ggplot(avg_duration_per_weekday, aes(weekday, average_trip_time, fill=member_cas
 ```
 
 ![image](https://user-images.githubusercontent.com/117652787/219965245-bc11d9e3-f760-4f0b-a479-a484a96cd4bd.png)
+
+Share phase is done on Tableau, Find the Tableau dashboard [here](https://public.tableau.com/views/cyclistbikesharingcapstoneproject/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
